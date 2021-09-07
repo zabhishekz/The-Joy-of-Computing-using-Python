@@ -6,7 +6,7 @@ Created on Tue Aug 24 17:29:20 2021
 """
 
 dict1={"ID":"0121","Name":"zzz"}
-dict2={"Name":"zzz"}
+dict2={"Name":"ZZZ"}
 dict2.update({"ID":"0121"})
 if(dict1==dict2):
     print("They are equal")
