@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun Sep  5 19:05:25 2021
+Created on Sun Sep 8 15:05:25 2021
 
 @author: Abhishek
 """
@@ -25,7 +25,7 @@ def spiral(m,n):
     '''
     k is index of starting row
     l is index of starting column
-    m is ending riw index
+    m is ending row index
     n is ending column index
     i is iterator
     '''
