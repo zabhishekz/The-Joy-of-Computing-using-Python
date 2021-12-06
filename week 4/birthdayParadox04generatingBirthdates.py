@@ -12,13 +12,13 @@ if month is february and year is leap year then
 generate day randomly from 1 to 29
 if month is february and year is not a leap year then
 generate day randomly from 1 to 28
-if month%2==0 is february month < 7 then  //April, June
+if month%2==0 and month < 7 then  //April, June
 generate day randomly from 1 to 30
-if month%2==0 is february month > 7 then  //August, October, December
+if month%2==0 and month > 7 then  //August, October, December
 generate day randomly from 1 to 31
-if month%2!=0 is february month <= 7 then //January, March, May, July
+if month%2!=0 and month <= 7 then //January, March, May, July
 generate day randomly from 1 to 31
-if month%2!=0 is february month > 7 then  //September, November
+if month%2!=0 and month > 7 then  //September, November
 generate day randomly from 1 to 30
 """
 
